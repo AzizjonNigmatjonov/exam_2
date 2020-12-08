@@ -46,6 +46,14 @@
 		width: 460px;
 	}
 
+	.buyurtma__title {
+		color: #000000;
+	}
+
+	.buyurtma__subtext {
+		color: #000000;
+	}
+
 	/*footer-copyright*/
 
 	.copyright .container {
