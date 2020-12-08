@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (max-width: 500px) {
 
 	* {
 		width: auto;
@@ -7,25 +7,33 @@
 	/*header-header*/
 
 	.header .container {
-		width: auto;
+		width: 460px;
+	}
+
+	.header .nav {
+		flex-direction: column;
+	}
+
+	.nav-list {
+		flex-direction: column;
 	}
 
 	/*main-main*/
 
 	.main .container {
-	width: auto;
+	width: 460px;
 	}
 
 	/*section-xizmatlar*/
 
 	.xizmatlar .container {
-		width: auto;
+		width: 460px;
 	}
 
 	/*section-biz*/
 
 	.biz .container {
-		width: auto;
+		width: 460px;
 	}
 
 	/*footer-copyright*/
