@@ -38,15 +38,17 @@
 
 	/*section-buyurtma*/
 
+	.buyurtma {
+		background-size: cover;
+	}
+
 	.buyurtma .container {
 		width: 460px;
-		background-color: #ffffff;
 	}
 
 	/*footer-copyright*/
 
 	.copyright .container {
 		width: 460px;
-		background-color: #ffffff;
 	}
 }
