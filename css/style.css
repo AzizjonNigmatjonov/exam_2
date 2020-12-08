@@ -136,12 +136,13 @@ body {
 	color: #000000;
 	font-style: normal;
 	font-weight: 400;
-	transition: 0.2s;
+	transition: all 0.1s;
 	font-size: 15px;
 }
 
 .nav-item__link:hover {
 	color: #00bafc;
+	transform: scale(1.03);
 }
 
 .nav-item_number {
@@ -153,10 +154,12 @@ body {
 	border-radius: 5px;
 	padding: 8px 16px;
 	font-weight: bold;
+	transition: all 0.1s;
 }
 
 .nav-item_number:hover {
 	color: #ffffff;
+	background-color: #00bafcdd;
 }
 
 /*section-main*/
@@ -196,6 +199,12 @@ body {
 	background-color: #00bafc;
 	border-radius: 5px;
 	display: inline-block;
+	transition: 0.1s;
+}
+
+.main__content-link:hover {
+	background-color: #00bafcdd;
+	transform: scale(1.03);
 }
 
 .main__youtube-video iframe {
@@ -297,12 +306,24 @@ body {
 	background-color: #00bafc;
 	border-radius: 5px;
 	text-decoration: none;
+	transition:  0.1s;
+}
+
+.xizmatlar__footer-link_buyurtma:hover {
+	background-color: #00bafcdd;
+	transform: scale(1.03);
 }
 
 .xizmatlar__footer-link_xizmarlar {
 	font-size: 16px;
 	font-weight: 400;
 	color: #00bafc;
+	transition: all 0.1s;
+}
+
+.xizmatlar__footer-link_xizmarlar:hover {
+	color: #00bafcdd;
+	transform: scale(1.03);
 }
 
 /*section-biz*/
@@ -388,6 +409,12 @@ body {
 	padding: 8px 16px;
 	border-radius: 5px;
 	margin-top: 45px;
+	transition: 0.1s;
+}
+
+.biz__link-buyurtma:hover {
+	background-color: #00bafcdd;
+	transform: scale(1.03);
 }
 
 /*section-buyurtma*/
@@ -482,6 +509,11 @@ body {
 	margin-top: 15px;
 }
 
+.buyurtma__content-link_buyurtma:hover {
+	background-color: #00bafcdd;
+	transform: scale(1.03);
+}
+
 /*footer-copyright*/
 
 .copyright {
@@ -523,6 +555,11 @@ body {
 	line-height: 150%;
 	width: 320px;
 	margin-top: 8px;
+	transition: all 0.1s;
+}
+
+.copyright__item-subtext:hover {
+	color: #f04037;
 }
 
 .copyright__item-link {
@@ -531,6 +568,12 @@ body {
 	font-weight: 400;
 	text-decoration: none;
 	margin-top: 8px;
+	transition: all 0.1s;
+}
+
+.copyright__item-link:hover {
+	color: #00bafc;
+	transform: scale(1.03);
 }
 
 .copyright__item-link_social {
@@ -543,4 +586,9 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	width: 100px;
+}
+
+.copyright__item-link_social:hover {
+	color: #00bafc;
+	transform: scale(1.03);
 }
