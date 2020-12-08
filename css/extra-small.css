@@ -36,9 +36,15 @@
 		width: 460px;
 	}
 
+	/*section-buyurtma*/
+
+	.buyurtma .container {
+		width: 460px;
+	}
+
 	/*footer-copyright*/
 
 	.copyright .container {
-		width: auto;
+		width: 460px;
 	}
 }
