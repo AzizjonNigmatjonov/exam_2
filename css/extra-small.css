@@ -40,11 +40,13 @@
 
 	.buyurtma .container {
 		width: 460px;
+		background-size: cover;
 	}
 
 	/*footer-copyright*/
 
 	.copyright .container {
 		width: 460px;
+		background-size: cover;
 	}
 }
