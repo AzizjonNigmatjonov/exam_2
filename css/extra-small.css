@@ -1,0 +1,36 @@
+@media (max-width: 576px) {
+
+	* {
+		width: auto;
+	}
+
+	/*header-header*/
+
+	.header .container {
+		width: auto;
+	}
+
+	/*main-main*/
+
+	.main .container {
+	width: auto;
+	}
+
+	/*section-xizmatlar*/
+
+	.xizmatlar .container {
+		width: auto;
+	}
+
+	/*section-biz*/
+
+	.biz .container {
+		width: auto;
+	}
+
+	/*footer-copyright*/
+
+	.copyright .container {
+		width: auto;
+	}
+}
