@@ -476,6 +476,10 @@ body {
 	border-radius: 5px;
 }
 
+.buyurtma__content-input_name::placeholder {
+	color: #000000;
+}
+
 .buyurtma__content-input_number {
 	font-size: 16px;
 	color: #000000;
@@ -487,6 +491,10 @@ body {
 	outline: none;
 	border-radius: 5px;
 	margin: 15px 0px;
+}
+
+.buyurtma__content-input_number::placeholder {
+	color: #000000;
 }
 
 .buyurtma__content-select {
@@ -510,6 +518,10 @@ body {
 	font-weight: 700;
 	text-decoration: none;
 	margin-top: 15px;
+}
+
+select:required:invalid {
+	color: gray;
 }
 
 .buyurtma__content-link_buyurtma:hover {
