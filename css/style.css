@@ -138,11 +138,13 @@ body {
 	font-weight: 400;
 	transition: all 0.1s;
 	font-size: 15px;
+	padding-bottom: 7px;
 }
 
 .nav-item__link:hover {
 	color: #00bafc;
 	transform: scale(1.03);
+	box-shadow: 0px 3px 0px 0px #00bafc;
 }
 
 .nav-item_number {
@@ -160,6 +162,7 @@ body {
 .nav-item_number:hover {
 	color: #ffffff;
 	background-color: #00bafcdd;
+	box-shadow: none;
 }
 
 /*section-main*/
