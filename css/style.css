@@ -477,7 +477,7 @@ body {
 }
 
 .buyurtma__content-input_name::placeholder {
-	color: #000000;
+	color: #111111;
 }
 
 .buyurtma__content-input_number {
@@ -494,7 +494,7 @@ body {
 }
 
 .buyurtma__content-input_number::placeholder {
-	color: #000000;
+	color: #111111;
 }
 
 .buyurtma__content-select {
@@ -518,10 +518,6 @@ body {
 	font-weight: 700;
 	text-decoration: none;
 	margin-top: 15px;
-}
-
-select:required:invalid {
-	color: gray;
 }
 
 .buyurtma__content-link_buyurtma:hover {
