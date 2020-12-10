@@ -2,16 +2,41 @@
 	.header .container {
 		width: 516px;
 	}
+
+	.main .container {
+		width: 516px;
+	}
 }
 
 @media (max-width: 540px) {
 	.header .container {
 		width: 480px;
 	}
+
+	.main .container {
+		width: 480px;
+	}
+
+	.main .main__youtube-video {
+		width: 300px;
+	}
+
+	.main .main__content-title {
+		width: 300px;
+	}
+
+	.main .main__content-subtext {
+		width: 300px;
+	}
+
 }
 
 @media (max-width: 500px) {
 	.header .container {
+		width: 440px;
+	}
+
+	.main .container {
 		width: 440px;
 	}
 }

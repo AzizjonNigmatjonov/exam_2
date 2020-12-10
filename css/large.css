@@ -2,10 +2,18 @@
 	.header .container {
 		width: 1100px;
 	}
+
+	.main .container {
+		width: 1100px;
+	}
 }
 
 @media (max-width: 1140px) {
 	.header .container {
+		width: 1050px;
+	}
+
+	.main .container {
 		width: 1050px;
 	}
 }
@@ -14,11 +22,27 @@
 	.header .container {
 		width: 1020px;
 	}
+
+	.main .container {
+		width: 1020px;
+	}
 }
 
 @media (max-width: 1040px) {
 	.header .container {
 		width: 960px;
+	}
+
+	.main .container {
+		width: 960px;
+	}
+
+	.main .main__content-title {
+		width: 350px;
+	}
+
+	.main .main__content-subtext {
+		width: 360px;
 	}
 }
 
@@ -32,6 +56,10 @@
 		width: 600px;
 	}
 
+	.main .container {
+		width: 940px;
+	}
+
 }
 
 @media (max-width: 960px) {
@@ -40,7 +68,12 @@
 		width: 900px;
 	}
 
+	.main .container {
+		width: 900px;
+	}
+
 }
+
 
 @media (max-width: 930px) {
 
@@ -48,11 +81,23 @@
 		width: 870px;
 	}
 
+	.main .container {
+		width: 870px;
+	}
+
+	.main .main__youtube-video {
+		width: 400px;
+	}
+
 }
 
 @media (max-width: 895px) {
 
 	.header .container {
+		width: 820px;
+	}
+
+	.main .container {
 		width: 820px;
 	}
 
@@ -70,6 +115,24 @@
 
 	.nav-image {
 		padding-bottom: 10px;
+	}
+
+	.main .container {
+		width: 790px;
+		flex-direction: column-reverse;
+	}
+
+	.main .main__youtube-video {
+		width: 550px;
+		padding-bottom: 20px;
+	}
+
+	.main .main__content-title {
+		width: 470px;
+	}
+
+	.main .main__content-subtext {
+		width: 465px;
 	}
 
 }

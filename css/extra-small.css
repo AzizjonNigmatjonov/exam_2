@@ -2,16 +2,59 @@
 	.header .container {
 		width: 390px;
 	}
+
+	.main .container {
+		width: 390px;
+	}
 } 
 
 @media (max-width: 410px) {
 	.header .container {
 		width: 350px;
 	}
+
+	.header .nav-link {
+		font-size: 13px;
+		margin-bottom: 5px;
+	}
+
+	.header .nav-link_number {
+		font-size: 13px;
+		padding: 5px 10px;
+	}
+
+	.main .container {
+		width: 350px;
+	}
+
+	.main .main__youtube-video {
+		width: 250px;
+		height: 200px;
+	}
+
+	.main .main__content-title {
+		width: 250px;
+		font-size: 25px;
+	}
+
+	.main .main__content-subtext {
+		width: 250px;
+		font-size: 14px;
+	}
+
+	.main .main__content-link {
+		font-size: 14px;
+		padding: 5px 10px;
+	}
+
 } 
 
 @media (max-width: 370px) {
 	.header .container {
+		width: 310px;
+	}
+
+	.main .container {
 		width: 310px;
 	}
 } 
@@ -21,11 +64,39 @@
 	.header .container {
 		width: 280px;
 	}
+
+	.main .container {
+		width: 280px;
+	}
 } 
 
 @media (max-width: 300px) {
 	.header .container {
 		width: 240px;
+	}
+
+	.main .container {
+		width: 240px;
+	}
+
+	.main .main__youtube-video {
+		width: 200px;
+		height: 150px;
+	}
+
+	.main .main__content-title {
+		width: 200px;
+		font-size: 25px;
+	}
+
+	.main .main__content-subtext {
+		width: 200px;
+		font-size: 14px;
+	}
+
+	.main .main__content-link {
+		font-size: 14px;
+		padding: 5px 10px;
 	}
 } 
 
@@ -33,16 +104,72 @@
 	.header .container {
 		width: 200px;
 	}
+
+	.main .container {
+		width: 200px;
+	}
+
+	.main .main__youtube-video {
+		width: 170px;
+		height: 150px;
+	}
+
+	.main .main__content-title {
+		width: 170px;
+		font-size: 25px;
+	}
+
+	.main .main__content-subtext {
+		width: 170px;
+		font-size: 14px;
+	}
+
+	.main .main__content-link {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
 } 
 
 @media (max-width: 220px) {
 	.header .container {
 		width: 160px;
 	}
+
+	.main .container {
+		width: 160px;
+		padding: 10px 0px;
+	}
+
+	.main .main__youtube-video {
+		width: 130px;
+		height: 80px;
+		padding-bottom: 5px;
+	}
+
+	.main .main__content-title {
+		width: 130px;
+		font-size: 18px;
+	}
+
+	.main .main__content-subtext {
+		width: 130px;
+		font-size: 10px;
+		line-height: 20px;
+		margin: 5px 0px 10px 0px;
+	}
+
+	.main .main__content-link {
+		font-size: 10px;
+		padding: 5px 10px;
+	}
 } 
 
 @media (max-width: 180px) {
 	.header .container {
+		width: 100%;
+	}
+
+	.main .container {
 		width: 100%;
 	}
 } 

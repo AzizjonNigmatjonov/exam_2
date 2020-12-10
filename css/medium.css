@@ -3,6 +3,33 @@
 		width: 660px;
 	}
 
+	.main .container {
+		width: 660px;
+		padding: 40px 0;
+	}
+
+	.main .main__youtube-video {
+		width: 400px;
+		padding-bottom: 20px;
+	}
+
+	.main .main__content-title {
+		width: 400px;
+		text-align: center;
+	}
+
+	.main .main__content-subtext {
+		width: 400px;
+		text-align: center;
+		background-color: red;
+	}
+
+	.main .main__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 }
 
 @media (max-width: 680px) {
@@ -18,16 +45,29 @@
 	.nav-link {
 		margin-bottom: 10px;
 	}
+
+	.main .container {
+		width: 600px;
+		background-color: yellow;
+	}
 }
 
 @media (max-width: 620px) {
 	.header .container {
 		width: 560px;
 	}
+
+	.main .container {
+		width: 560px;
+	}
 }
 
 @media (max-width: 590px) {
 	.header .container {
+		width: 530px;
+	}
+
+	.main .container {
 		width: 530px;
 	}
 }
