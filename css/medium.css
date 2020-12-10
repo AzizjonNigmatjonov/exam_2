@@ -1,156 +1,34 @@
-@media (max-width: 768px) {
+@media (max-width: 720px) {
 	.header .container {
-		width: 720px;
-	}
-
-	.header .nav-list {
-		flex-wrap: wrap;
-		justify-content: flex-end;
-	}
-
-	.nav-item {
-		margin-left: 10px;
-	}
-
-	.nav-link {
-		font-size: 13px;
-	}
-
-	.nav-item_number {
-		padding: 5px 10px;
-	}
-
-	.main .container {
-		width: 720px;
-		flex-direction: column-reverse;
-		align-items: center;
-	}
-
-	.main__content-title {
-		text-align: center;
-		padding-top: 20px;
-	}
-
-	.main__content-subtext {
-		text-align: center;
-	}
-
-	.main__content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	/*section-xizmatlar*/
-
-	.xizmatlar .container {
-		width: 720px;
-	}
-
-	.xizmatlar__content-subtext {
-		width: 500px;
-	}
-
-	.xizmatlar__list {
-		flex-direction: column;
-	}
-	.xizmatlar__item {
-		width: 290px;
-		margin-bottom: 20px;
-	}
-
-	.xizmatlar__item_margin {
-		margin-bottom: 20px;
-	}
-
-	.xizmatlar_item_margin-bottom-left {
-		margin-right: 0px;
-	}
-
-	.xizmatlar__item_margin-bottom-right {
-		margin-left: 0px;
-	}
-
-	.xizmatlar__footer {
-		flex-direction: column-reverse;
-		width: 230px;
-		margin-top: 5px;
-		height: 70px;
-	}
-
-	/*section-biz*/
-
-	.biz .container {
-		width: 720px;
-		margin: 0 auto;
-		padding-top: 50px;
-	}
-
-	.biz___content-subtext {
-		width: 440px;
-	}
-
-	.biz__item {
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 50px;
-	}
-
-	.biz__item:nth-child(even) {
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.biz__item__content {
-		padding-top: 20px;
-	}
-
-	.biz__item__content-text {
-		font-size: 20px;
-		color: #000000;
-		font-weight: 700;
-	}
-
-	.biz__item__content-subtext {
-		color: #000000;
-		font-size: 16px;
-		line-height: 24px;
-		width: 300px;
-		padding-top: 7px;
-		text-align: center;
-	}
-
-	/*section-buyurtma*/
-
-	.buyurtma .container {
-		width: 720px;
-	}
-
-	.buyurtma__subtext {
-		width: 500px;
-	}
-
-	/*footer-copyright*/
-
-	.copyright .container {
-		width: 720px;
-	}
-
-	.copyright__list {
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-	}
-
-	.copyright__item {
-		width: 350px;
-		padding-top: 30px;
-	}
-
-	.copyright__item_second {
-		margin: 0px 0px 0px 0px;
+		width: 660px;
 	}
 
 }
+
+@media (max-width: 680px) {
+	.header .container {
+		width: 600px;
+	}
+
+	.nav-list {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.nav-link {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 620px) {
+	.header .container {
+		width: 560px;
+	}
+}
+
+@media (max-width: 590px) {
+	.header .container {
+		width: 530px;
+	}
+}
+
