@@ -6,6 +6,14 @@
 	.main .container {
 		width: 516px;
 	}
+
+	.services .container {
+		width: 516px;
+	}
+
+	.services__content-subtext {
+		width: 350px;
+	}
 }
 
 @media (max-width: 540px) {
@@ -29,6 +37,10 @@
 		width: 300px;
 	}
 
+	.services .container {
+		width: 480px;
+	}
+
 }
 
 @media (max-width: 500px) {
@@ -38,5 +50,14 @@
 
 	.main .container {
 		width: 440px;
+	}
+
+	.services .container {
+		width: 440px;	
+	}
+
+	.services__content-subtext {
+		width: 280px;
+		padding-top: 0px;
 	}
 }

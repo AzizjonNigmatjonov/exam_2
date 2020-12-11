@@ -6,21 +6,15 @@
 	.main .container {
 		width: 390px;
 	}
+
+	.services .container {
+		width: 390px;	
+	}
 } 
 
 @media (max-width: 410px) {
 	.header .container {
 		width: 350px;
-	}
-
-	.header .nav-link {
-		font-size: 13px;
-		margin-bottom: 5px;
-	}
-
-	.header .nav-link_number {
-		font-size: 13px;
-		padding: 5px 10px;
 	}
 
 	.main .container {
@@ -47,6 +41,14 @@
 		padding: 5px 10px;
 	}
 
+	.services .container {
+		width: 350px;	
+	}
+
+	.services__content-subtext {
+		width: 250px;
+	}
+
 } 
 
 @media (max-width: 370px) {
@@ -56,6 +58,10 @@
 
 	.main .container {
 		width: 310px;
+	}
+
+	.services .container {
+		width: 310px;	
 	}
 } 
 
@@ -67,6 +73,14 @@
 
 	.main .container {
 		width: 280px;
+	}
+
+	.services .container {
+		width: 280px;	
+	}
+
+	.services__content-subtext {
+		width: 220px;
 	}
 } 
 
@@ -98,6 +112,51 @@
 		font-size: 14px;
 		padding: 5px 10px;
 	}
+
+	.services .container {
+		width: 240px;	
+		padding: 10px 0px 10px 0px;
+	}
+
+	.services__content-title {
+		font-size: 20px;
+	}
+
+	.services__content-subtext {
+		font-size: 14px;
+		line-height: 22px;
+		width: 200px;
+	}
+
+	.services-list {
+		padding-top: 10px;
+	}
+
+	.services-item {
+		width: 200px;
+		height: 210px;
+	}
+
+	.services-img {
+		width: 180px;
+	}
+
+	.services-text {
+		font-size: 18px;
+	}
+
+	.services-subtext {
+		font-size: 14px;
+	}
+
+	.services-link_buyurtma {
+		font-size: 14px;
+		padding: 5px 10px;
+	}
+
+	.services-link_xizmarlar {
+		font-size: 14px;
+	}
 } 
 
 @media (max-width: 260px) {
@@ -116,17 +175,46 @@
 
 	.main .main__content-title {
 		width: 170px;
-		font-size: 25px;
 	}
 
 	.main .main__content-subtext {
 		width: 170px;
-		font-size: 14px;
 	}
 
 	.main .main__content-link {
 		font-size: 12px;
+	}
+
+	.services .container {
+		width: 200px;	
+	}
+
+	.services__content-subtext {
+		font-size: 14px;
+		line-height: 22px;
+		width: 170px;
+	}
+
+	.services-list {
+		padding-top: 10px;
+	}
+
+	.services-item {
+		width: 170px;
+		height: 180px;
+	}
+
+	.services-img {
+		width: 160px;
+	}
+
+	.services-link_buyurtma {
+		font-size: 10px;
 		padding: 5px 10px;
+	}
+
+	.services-link_xizmarlar {
+		font-size: 10px;
 	}
 } 
 
@@ -162,12 +250,62 @@
 		font-size: 10px;
 		padding: 5px 10px;
 	}
+
+	.services .container {
+		width: 160px;	
+	}
+
+	.services__content-title {
+		font-size: 16px;
+	}
+
+	.services__content-subtext {
+		font-size: 10px;
+		line-height: 22px;
+		width: 130px;
+	}
+
+	.services-list {
+		padding-top: 10px;
+	}
+
+	.services-item {
+		width: 130px;
+		height: 140px;
+	}
+
+	.services-img {
+		width: 110px;
+	}
+
+	.services-text {
+		font-size: 14px;
+	}
+
+	.services-subtext {
+		font-size: 10px;
+	}
+
+	.services-link_buyurtma {
+		font-size: 10px;
+		padding: 5px 10px;
+	}
+
+	.services-link_xizmarlar {
+		font-size: 10px;
+	}
 } 
 
 @media (max-width: 180px) {
 	.header .container {
-		width: 100%;
+		width: 95%;
 	}
 
-	
+	.main .container {
+		width: 95%;
+	}
+
+	.services .container {
+		width: 95%;	
+	}
 } 
