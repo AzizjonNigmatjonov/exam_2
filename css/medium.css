@@ -7,7 +7,7 @@
 		width: 730px;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 480px;
 		height: 315px;
 	}
@@ -45,22 +45,22 @@
 		padding: 40px 0;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 400px;
 		padding-bottom: 20px;
 	}
 
-	.main .main__content-title {
+	.main .main-content__title {
 		width: 400px;
 		text-align: center;
 	}
 
-	.main .main__content-subtext {
+	.main .main-content__subtext {
 		width: 400px;
 		text-align: center;
 	}
 
-	.main .main__content {
+	.main .main-content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;

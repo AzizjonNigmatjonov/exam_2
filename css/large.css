@@ -50,6 +50,10 @@
 		width: 1050px;
 	}
 
+	.main-youtube__video {
+		width: 500px;
+	}
+
 	.services .container {
 		width: 1050px;
 	}
@@ -93,7 +97,7 @@
 		width: 1020px;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 500px;
 		height: 315px;
 	}
@@ -132,11 +136,11 @@
 		width: 960px;
 	}
 
-	.main .main__content-title {
+	.main .main-content__title {
 		width: 350px;
 	}
 
-	.main .main__content-subtext {
+	.main .main-content__subtext {
 		width: 360px;
 	}
 
@@ -246,7 +250,7 @@
 		width: 870px;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 400px;
 	}
 
@@ -353,16 +357,16 @@
 		flex-direction: column-reverse;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 550px;
 		padding-bottom: 20px;
 	}
 
-	.main .main__content-title {
+	.main-content__title {
 		width: 470px;
 	}
 
-	.main .main__content-subtext {
+	.main-content__subtext {
 		width: 465px;
 	}
 

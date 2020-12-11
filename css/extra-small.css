@@ -52,23 +52,23 @@
 		padding: 10px 0px 20px 0px;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 250px;
 		height: 200px;
 	}
 
-	.main .main__content-title {
+	.main .main-content__title {
 		width: 250px;
 		font-size: 25px;
 	}
 
-	.main .main__content-subtext {
+	.main .main-content__subtext {
 		width: 250px;
 		font-size: 14px;
 		margin: 0px 0px 0px 0px;
 	}
 
-	.main .main__content-link {
+	.main .main-content__link {
 		font-size: 14px;
 		padding: 5px 10px;
 		margin-top: 10px;
@@ -228,22 +228,22 @@
 		width: 240px;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 200px;
 		height: 150px;
 	}
 
-	.main .main__content-title {
+	.main .main-content__title {
 		width: 200px;
 		font-size: 25px;
 	}
 
-	.main .main__content-subtext {
+	.main .main-content__subtext {
 		width: 200px;
 		font-size: 14px;
 	}
 
-	.main .main__content-link {
+	.main .main-content__link {
 		font-size: 14px;
 		padding: 5px 10px;
 	}
@@ -413,20 +413,20 @@
 		width: 200px;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 170px;
 		height: 150px;
 	}
 
-	.main .main__content-title {
+	.main .main-content__title {
 		width: 170px;
 	}
 
-	.main .main__content-subtext {
+	.main .main-content__subtext {
 		width: 170px;
 	}
 
-	.main .main__content-link {
+	.main .main-content__link {
 		font-size: 12px;
 	}
 
@@ -568,25 +568,25 @@
 		padding: 10px 0px;
 	}
 
-	.main .main__youtube-video {
+	.main .main-youtube__video {
 		width: 150px;
 		height: 100px;
 		padding-bottom: 5px;
 	}
 
-	.main .main__content-title {
+	.main .main-content__title {
 		width: 130px;
 		font-size: 18px;
 	}
 
-	.main .main__content-subtext {
+	.main .main-content__subtext {
 		width: 130px;
 		font-size: 10px;
 		line-height: 20px;
 		margin: 5px 0px 10px 0px;
 	}
 
-	.main .main__content-link {
+	.main .main-content__link {
 		font-size: 10px;
 		padding: 5px 10px;
 	}
