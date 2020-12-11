@@ -10,6 +10,19 @@
 	.services .container {
 		width: 390px;	
 	}
+
+	.us .container {
+		width: 390px;
+		padding: 10px 0px;
+	}
+
+	.us-item {
+		margin-top: 20px;
+	}
+
+	.us__order-link {
+		margin-top: 15px;
+	}
 } 
 
 @media (max-width: 410px) {
@@ -49,6 +62,10 @@
 		width: 250px;
 	}
 
+	.us .container {
+		width: 350px;
+	}
+
 } 
 
 @media (max-width: 370px) {
@@ -62,6 +79,10 @@
 
 	.services .container {
 		width: 310px;	
+	}
+
+	.us .container {
+		width: 310px;
 	}
 } 
 
@@ -81,6 +102,19 @@
 
 	.services__content-subtext {
 		width: 220px;
+	}
+
+	.us .container {
+		width: 280px;
+	}
+
+	.us__content-title  {
+		width: 180px;
+		text-align: center;
+	}
+
+	.us___content-subtext {
+		width: 230px;
 	}
 } 
 
@@ -157,6 +191,49 @@
 	.services-link_xizmarlar {
 		font-size: 14px;
 	}
+
+	.us .container {
+		width: 240px;
+	}
+
+	.us__content-title {
+		font-size: 22px;
+	}
+
+	.us___content-subtext {
+		font-size: 14px;
+		width: 170px;
+	}
+
+	.us-img {
+		width: 150px;
+	}
+
+	.us-item-content__text {
+		width: 170px;
+		font-size: 18px;
+	}
+
+	.us-item-content__subtext {
+		width: 180px;
+		font-size: 14px;
+	}
+
+	.us-item:nth-child(even) .us-item-content__text {
+		width: 170px;
+		font-size: 18px;
+	}
+
+	.us-item:nth-child(even) .us-item-content__subtext {
+		width: 180px;
+		font-size: 14px;
+	}
+
+	.us__order-link  {
+		font-size: 14px;
+		padding: 5px 10px;
+		margin-top: 10px;
+	}
 } 
 
 @media (max-width: 260px) {
@@ -202,6 +279,7 @@
 	.services-item {
 		width: 170px;
 		height: 180px;
+		margin-bottom: 10px;
 	}
 
 	.services-img {
@@ -209,12 +287,57 @@
 	}
 
 	.services-link_buyurtma {
-		font-size: 10px;
+		font-size: 12px;
 		padding: 5px 10px;
 	}
 
 	.services-link_xizmarlar {
-		font-size: 10px;
+		font-size: 12px;
+	}
+
+	.us .container {
+		width: 200px;
+	}
+
+	.us-item {
+		margin-top: 10px;
+	}
+
+	.us__content-title {
+		font-size: 20px;
+	}
+
+	.us___content-subtext {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.us-item-content__text {
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.us-item-content__subtext {
+		font-size: 12px;
+		line-height: 20px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.us-item:nth-child(even) .us-item-content__text {
+		width: 170px;
+		font-size: 16px;
+	}
+
+	.us-item:nth-child(even) .us-item-content__subtext {
+		width: 180px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.us__order-link {
+		font-size: 12px;
 	}
 } 
 
@@ -294,6 +417,55 @@
 	.services-link_xizmarlar {
 		font-size: 10px;
 	}
+
+	.us .container {
+		width: 160px;
+	}
+
+	.us__content-title {
+		font-size: 18px;
+	}
+
+	.us___content-subtext {
+		font-size: 10px;
+		line-height: 20px;
+	}
+
+	.us-img {
+		width: 80px;
+	}
+
+	.us-item-content__text {
+		font-size: 14px;
+		margin: 0;
+		padding: 0;
+		width: 100px;
+	}
+
+	.us-item-content__subtext {
+		font-size: 10px;
+		line-height: 20px;
+		padding: 0;
+		margin: 0;
+		width: 120px;
+	}
+
+	.us-item:nth-child(even) .us-item-content__text {
+		width: 170px;
+		font-size: 14px;
+		width: 100px;
+	}
+
+	.us-item:nth-child(even) .us-item-content__subtext {
+		width: 180px;
+		font-size: 10px;
+		line-height: 20px;
+		width: 120px;
+	}
+
+	.us__order-link {
+		font-size: 10px;
+	}
 } 
 
 @media (max-width: 180px) {
@@ -307,5 +479,9 @@
 
 	.services .container {
 		width: 95%;	
+	}
+
+	.us .container {
+		width: 95%;
 	}
 } 

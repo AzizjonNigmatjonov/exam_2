@@ -126,7 +126,6 @@ img {
 	justify-content: space-between;
 	padding: 20px 0px;
 	background-color: #ffffff;
-	width: 100%;
 }
 
 .header .nav {
@@ -351,9 +350,9 @@ img {
 	text-decoration: underline;
 }
 
-/*section-biz*/
+/*section-us*/
 
-.biz .container {
+.us .container {
 	width: 1140px;
 	margin: 0 auto;
 	display: flex;
@@ -361,21 +360,22 @@ img {
 	justify-content: center;
 	flex-direction: column;
 	padding: 56px 0px;
+	background-color: yellow;
 }
 
-.biz__content {
+.us__content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.biz__content-title {
+.us__content-title {
 	font-weight: 700;
 	font-size: 24px;
 	color: #000000;
 }
 
-.biz___content-subtext {
+.us___content-subtext {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -383,41 +383,44 @@ img {
 	width: 719px;
 	text-align: center;
 	margin: 5px 0px 16px 0px;
+	background-color: red;
 }
 
-.biz__list {
+.us-list {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: red;
 }
 
-.biz__item {
+.us-item {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 }
 
-.biz__item:nth-child(even) {
+.us-item:nth-child(even) {
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	width: 100%;
 }
 
-.biz__item:nth-child(even) .biz__item__content {
+.us-item:nth-child(even) .us-item-content {
 	padding-left: 0;
 }
 
-.biz__item__content {
+.us-item-content {
 	padding-left: 30px;
 }
 
-.biz__item__content-text {
+
+.us-item-content__text {
 	font-size: 20px;
 	color: #000000;
 	font-weight: 700;
 }
 
-.biz__item__content-subtext {
+.us-item-content__subtext {
 	color: #000000;
 	font-size: 16px;
 	line-height: 24px;
@@ -425,7 +428,7 @@ img {
 	padding-top: 7px;
 }
 
-.biz__link-buyurtma {
+.us__order-link {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 700;
@@ -434,10 +437,10 @@ img {
 	padding: 8px 16px;
 	border-radius: 5px;
 	margin-top: 45px;
-	transition: 0.1s;
+	transition: 0.2s;
 }
 
-.biz__link-buyurtma:hover {
+.us__order-link:hover {
 	background-color: #00bafcdd;
 	transform: scale(1.03);
 }
