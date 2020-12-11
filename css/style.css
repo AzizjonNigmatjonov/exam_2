@@ -217,10 +217,11 @@ img {
 	background-color: #00bafc;
 	border-radius: 5px;
 	display: inline-block;
-	transition: 0.2s;
+	transition: all 0.2s;
 }
 
 .main__content-link:hover {
+	transform: scale(1.03);
 	background-color: #00bafcdd;
 }
 
