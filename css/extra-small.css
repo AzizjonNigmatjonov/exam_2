@@ -27,6 +27,19 @@
 	.order .container {
 		width: 390px;
 	}
+
+	.copyright .container {
+		width: 390px;
+	}  
+
+	.copyright-list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.copyright-item {
+		margin-top: 15px;
+	}
 } 
 
 @media (max-width: 410px) {
@@ -35,7 +48,8 @@
 	}
 
 	.main .container {
-		width: 350px;
+		width: 370px;
+		padding: 10px 0px 20px 0px;
 	}
 
 	.main .main__youtube-video {
@@ -51,11 +65,13 @@
 	.main .main__content-subtext {
 		width: 250px;
 		font-size: 14px;
+		margin: 0px 0px 0px 0px;
 	}
 
 	.main .main__content-link {
 		font-size: 14px;
 		padding: 5px 10px;
+		margin-top: 10px;
 	}
 
 	.services .container {
@@ -101,6 +117,40 @@
 		padding: 5px 10px;
 	}
 
+	.copyright .container {
+		width: 350px;
+	}  
+
+	.copyright-text {
+		font-size: 18px;
+	}
+
+	.copyright-subtext {
+		font-size: 14px;
+	}
+
+	.copyright-link {
+		font-size: 14px;
+	}
+
+	.copyright-link_social {
+		font-size: 14px;
+	}
+
+
+	.copyright-link_text {
+		font-size: 14px;
+	}
+
+	.copyright-item {
+		margin-top: 10px;
+	}
+
+	.copyright-link_img {
+		width: 15px;
+	}
+
+
 } 
 
 @media (max-width: 370px) {
@@ -123,6 +173,10 @@
 	.order .container {
 		width: 310px;
 	}
+
+	.copyright .container {
+		width: 310px;
+	}  
 } 
 
 
@@ -159,6 +213,10 @@
 	.order .container {
 		width: 280px;
 	}
+
+	.copyright .container {
+		width: 280px;
+	}  
 } 
 
 @media (max-width: 300px) {
@@ -314,6 +372,36 @@
 		font-size: 14px;
 	}
 
+	.copyright .container {
+		width: 240px;
+	}  
+
+	.copyright-text {
+		font-size: 16px;
+	}
+
+	.copyright-subtext {
+		font-size: 12px;
+	}
+
+	.copyright-link {
+		font-size: 12px;
+	}
+
+	.copyright-link_social {
+		font-size: 12px;
+	}
+
+
+	.copyright-link_text {
+		font-size: 12px;
+		padding-left: 5px;
+	}
+
+	.copyright-link_img {
+		width: 12px;
+	}
+
 } 
 
 @media (max-width: 260px) {
@@ -455,6 +543,19 @@
 	.form-link_buyurtma {
 		font-size: 12px;
 	}
+
+	.copyright .container {
+		width: 200px;
+	}  
+
+	.copyright-text {
+		font-size: 16px;
+	}
+
+	.copyright-subtext {
+		font-size: 12px;
+		width: 150px;
+	}
 } 
 
 @media (max-width: 220px) {
@@ -468,8 +569,8 @@
 	}
 
 	.main .main__youtube-video {
-		width: 130px;
-		height: 80px;
+		width: 150px;
+		height: 100px;
 		padding-bottom: 5px;
 	}
 
@@ -630,6 +731,11 @@
 	.form-link_buyurtma {
 		font-size: 10px;
 	}
+
+	.copyright .container {
+		width: 160px;
+	}  
+
 } 
 
 @media (max-width: 180px) {
@@ -652,4 +758,8 @@
 	.order .container {
 		width: 95%;
 	}
+
+	.copyright .container {
+		width: 95%;
+	}  
 } 

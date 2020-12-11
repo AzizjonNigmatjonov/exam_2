@@ -233,7 +233,6 @@ img {
 .main .main__youtube-video {
 	width: 560px;
 	height: 315px;
-	background-color: green;
 }
 
 /*section-services*/
@@ -246,7 +245,6 @@ img {
 	justify-content: center;
 	flex-direction: column;
 	padding: 50px 0px 50px 0px;
-	background-color: green;
 }
 
 .services__content-title {
@@ -271,7 +269,6 @@ img {
 	justify-content: center;
 	flex-wrap: wrap;
 	padding-top: 20px;
-	background-color: red;
 }
 
 .services-item {
@@ -284,7 +281,6 @@ img {
 	width: 330px;
 	height: 350px;
 	margin-bottom: 40px;
-	background-color: yellow;
 }
 
 .services-item_margin {
@@ -319,7 +315,6 @@ img {
 	align-items: center;
 	justify-content: space-between;
 	width: 380px;
-	background-color: red;
 }
 
 .services-link_buyurtma {
@@ -360,7 +355,6 @@ img {
 	justify-content: center;
 	flex-direction: column;
 	padding: 56px 0px;
-	background-color: yellow;
 }
 
 .us__content {
@@ -383,14 +377,12 @@ img {
 	width: 719px;
 	text-align: center;
 	margin: 5px 0px 16px 0px;
-	background-color: red;
 }
 
 .us-list {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: red;
 }
 
 .us-item {
@@ -459,7 +451,6 @@ img {
 	justify-content: center;
 	flex-direction: column;
 	padding: 50px 0px;
-	background-color: red;
 }
 
 .order__title {
@@ -562,29 +553,29 @@ img {
 	padding: 50px 0px;
 }
 
-.copyright__list {
+.copyright-list {
 	display: flex;
 	align-items: flex-start;
 	justify-content: flex-start;
 }
 
-.copyright__item {
+.copyright-item {
 	display: flex;
 	flex-direction: column;
 }
 
-.copyright__item_second{
+.copyright-item_second{
 	margin: 0px 100px 0px 100px;
 }
 
-.copyright__item-text {
+.copyright-text {
 	color: #ffffff;
 	font-size: 20px;
 	font-weight: 700;
 	margin-bottom: 8px;
 }
 
-.copyright__item-subtext {
+.copyright-subtext {
 	font-size: 16px;
 	font-weight: 400;
 	color: #ffffff;
@@ -594,11 +585,11 @@ img {
 	transition: all 0.1s;
 }
 
-.copyright__item-subtext:hover {
+.copyright-subtext:hover {
 	color: #f04037;
 }
 
-.copyright__item-link {
+.copyright-link {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 400;
@@ -607,12 +598,12 @@ img {
 	transition: all 0.1s;
 }
 
-.copyright__item-link:hover {
+.copyright-link:hover {
 	color: #00bafc;
 	transform: scale(1.03);
 }
 
-.copyright__item-link_social {
+.copyright-link_social {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 400;
@@ -620,11 +611,18 @@ img {
 	margin-top: 8px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	width: 100px;
 }
 
-.copyright__item-link_social:hover {
+.copyright-link_social:hover {
 	color: #00bafc;
 	transform: scale(1.03);
+}
+
+.copyright-link_img {
+	width: 20px;
+}
+
+.copyright-link_text {
+	font-size: 16px;
+	padding-left: 10px;
 }

@@ -38,6 +38,10 @@
 	.form-select {
 		width: 250px;
 	}
+
+	.copyright .container {
+		width: 516px;
+	} 
 }
 
 @media (max-width: 540px) {
@@ -72,6 +76,10 @@
 	.order .container {
 		width: 480px;
 	}
+
+	.copyright .container {
+		width: 480px;
+	}  
 
 }
 
@@ -116,6 +124,14 @@
 
 	.order-form {
 		margin-top: 15px;
+	}
+
+	.copyright .container {
+		width: 440px;
+	}  
+
+	.copyright-list {
+		justify-content: flex-start;
 	}
 
 
