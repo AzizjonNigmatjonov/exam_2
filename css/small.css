@@ -18,6 +18,26 @@
 	.us .container {
 		width: 516px;
 	}
+
+	.order .container {
+		width: 516px;
+	}
+
+	.order__subtext {
+		width: 350px;
+	}
+
+	.form-input_name  {
+		width: 250px;
+	}
+
+	.form-input_number  {
+		width: 250px;
+	}
+
+	.form-select {
+		width: 250px;
+	}
 }
 
 @media (max-width: 540px) {
@@ -46,6 +66,10 @@
 	}
 
 	.us .container {
+		width: 480px;
+	}
+
+	.order .container {
 		width: 480px;
 	}
 
@@ -79,6 +103,19 @@
 
 	.us___content-subtext {
 		width: 280px;
+	}
+
+	.order .container {
+		width: 440px;
+		padding: 20px 0px;
+	}
+
+	.order__subtext  {
+		margin-top: 5px;
+	}
+
+	.order-form {
+		margin-top: 15px;
 	}
 
 

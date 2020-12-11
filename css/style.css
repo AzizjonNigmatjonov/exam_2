@@ -447,11 +447,11 @@ img {
 
 /*section-buyurtma*/
 
-.buyurtma {
+.order {
 	background-color: #00bafc;
 }
 
-.buyurtma .container {
+.order .container {
 	width: 1140px;
 	margin: 0 auto;
 	display: flex;
@@ -459,16 +459,17 @@ img {
 	justify-content: center;
 	flex-direction: column;
 	padding: 50px 0px;
+	background-color: red;
 }
 
-.buyurtma__title {
+.order__title {
 	font-weight: 700;
 	color: #ffffff;
 	font-size: 24px;
 }
 
 
-.buyurtma__subtext {
+.order__subtext {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
@@ -478,7 +479,7 @@ img {
 	margin-top: 10px;
 }
 
-.buyurtma__content {
+.order-form {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -489,7 +490,7 @@ img {
 	border-radius: 5px;
 }
 
-.buyurtma__content-input_name {
+.form-input_name {
 	font-size: 16px;
 	color: #000000;
 	font-weight: 400;
@@ -497,15 +498,14 @@ img {
 	width: 300px;
 	background-color: #f3f3f3;
 	border: none;
-	outline: none;
 	border-radius: 5px;
 }
 
-.buyurtma__content-input_name::placeholder {
+.form-input_name::placeholder {
 	color: #111111;
 }
 
-.buyurtma__content-input_number {
+.form-input_number {
 	font-size: 16px;
 	color: #000000;
 	font-weight: 400;
@@ -518,11 +518,11 @@ img {
 	margin: 15px 0px;
 }
 
-.buyurtma__content-input_number::placeholder {
+.form-input_number::placeholder {
 	color: #111111;
 }
 
-.buyurtma__content-select {
+.form-select {
 	font-size: 16px;
 	color: #000000;
 	font-weight: 400;
@@ -534,7 +534,7 @@ img {
 	border-radius: 5px;
 }
 
-.buyurtma__content-link_buyurtma {
+.form-link_buyurtma {
 	background-color: #00bafc;
 	padding: 8px 16px;
 	color: #ffffff;
@@ -545,7 +545,7 @@ img {
 	margin-top: 15px;
 }
 
-.buyurtma__content-link_buyurtma:hover {
+.form-link_buyurtma:hover {
 	background-color: #00bafcdd;
 	transform: scale(1.03);
 }
